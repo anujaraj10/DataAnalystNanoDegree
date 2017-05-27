@@ -1,0 +1,117 @@
+Ques-1. What is our independent variable? What is our dependent variable?
+        An independent variable is the variable that is changed or controlled in a scientific experiment to test the effects on the dependent 
+        variable. A dependent variable is the variable being tested and measured in a scientific experiment.Dependent variable is also known as   
+        outcome variable.        
+        Independent variable: Color Congruency and,
+        Dependent variable: the time that it takes to name the ink colors in equally-­sized lists
+
+Ques-2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.
+        
+        Every hypothesis test contains a set of two opposing statements, or hypotheses, about a population parameter. The first hypothesis is called 
+        the null hypothesis, denoted by Ho.The hypothesis that the estimate is based solely on chance is called the null hypothesis. Thus, the null 
+        hypothesis is true if the observed data (in the sample) do not differ from what would be expected on the basis of chance alone.
+        The complement of the null hypothesis is called the alternative hypothesis. The alternative hypothesis is the statement you want to be able  
+        to conclude is true. Alternate hypothesis is abbreviated as Ha.
+        Ho: μ = μHo = 0.05 . 
+        μ is the population mean 
+        Alternate hypothesis is the opposite of null hypothesis
+        The population parameter is not equal to the claimed value
+        Ha: μ ≠ μHo ≠ 0.05
+        The population parameter is greater than the claimed value
+        Ha: μ > μHo
+        The population parameter is less than the claimed value
+        Ha: μ < μHo  
+        For this task a set of hypotheses is:
+        H0: There is no difference in population means of response time under incongruent and congruent conditions ( H0: μC = μI ),
+        Ha: Population mean of the response time under incongruent condition will be significantly larger than the response time under congruent     
+        condition ( Ha: μC < μI )        
+        For this task we have to calculate the mean, standard deviation,variance,p-value and t-test value.
+        Here the sample size is less than 30.
+        Population standard deviation is unknown.
+        In z test the conversion is based on our knowledge about the population’s standard deviation and mean. A z-score tells us how many standard  
+        deviations from the mean our result is. We can use our knowledge of normal distributions (like the 68.95 and 99.7 rule) or the z-table to 
+        determine what percentage of the population will fall below or above our result.
+        But incase of T-test we have to assume that the distributions are normal.  
+        Based on the way the experiment is being conducted the test is a dependent.The assumptions of the t-test for dependent means focus on 
+        sampling, research design, measurement, and distribution.The t-test for dependent means is considered typically "robust" for violations
+        of normal distribution.
+
+Ques-3. Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of     
+        variability.
+        
+        mean of congruent task = 14.051125 
+        mean of Incongruent task = 22.01591667
+        Variance of congruent task = 4887.793435
+        Variance of Incongruent task = 11797.9394
+        Standard Deviation of congruent task = 3.559357958
+        Standard Deviation of Incongruent task = 4.797057122
+
+Ques-4.Provide one or two visualizations that show the distribution of the sample data. Write one or two sentences noting what you observe about the 
+       plot or plots.
+  
+                                         Observation about congruent and Incongruent data plots
+       We can see that the results on the congruent task data approaches to normal distribution and same as in Incongruent task data.
+       From box-plots we can see most of the data points lies between lower quartile and upper quartile in congruent task. Same as in Incongruent    
+       task.
+        
+Ques-5. What is your confidence level and your critical statistic value?
+
+                                                                  CONFIDENCE LEVEL
+
+        A confidence level refers to the percentage of all possible samples that can be expected to include the true population parameter. 
+        Confidence interval for congruent data at 95% confidence level:
+                                                             for low is 12.5481	
+                                                             for high is 15.5541
+        Confidence interval for Incongruent data at 95% confidence level:
+                                                             for low is: 19.99029	
+                                                             for high is 24.04153624
+
+  
+                                                                  CRITICAL STATISTIC VALUE
+
+        The critical value is a factor used to compute the margin of error, as shown in the equations below.
+
+        Margin of error = Critical value x Standard deviation of the statistic 
+        When the sampling distribution of the statistic is normal or nearly normal, the critical value can be expressed as a t score or as a z      
+        score. To find the critical value, follow these steps.
+
+        Compute alpha (α): α = 1 - (confidence level / 100)
+        Find the critical probability (p*): p* = 1 - α/2
+
+        To express the critical value as a t statistic, follow these steps.
+        Find the degrees of freedom (df). Often, df is equal to the sample size minus one.
+        The critical t statistic (t*) is the t statistic having degrees of freedom equal to df 
+        and a cumulative probability equal to the critical probability (p*).
+
+        From t-test table:For congruent task
+         dof = 24-1
+             = 23
+         At dof 23 and p* = 0.9183268224
+         T-test value is 0.20 for one tail.
+         Critical static value at 0.20 = 0.60792
+                             
+        From t-test table:For Incongruent task   
+         dof = 24-1
+             = 23
+         At dof 23 and p* = 0.8749497324
+         T-test value is 0.20 for one tail.
+         Critical static value at 0.20 = 0.9445
+
+
+Ques-   Do you reject the null hypothesis or fail to reject it?
+     
+        At T=38.4659592 and dof=23 , The two-tailed P value is less than 0.0001   
+        P-value is smaler than the significance value so we reject the null hypothesis.
+ 
+
+
+                                                                 CONCLUSION
+
+       I conclude by putting everything together. A 95% confidence interval for the congruent data mean is 14.051125 and 
+       standard deviation is 3.039685038.For the Incongruent data mean is 22.01591667 and standard deviation is 4.722535644.
+       Alternatively we could state this confidence interval as 12.76761449 to 15.33463551 for congruent data and confidence interval
+       as 20.02177981 to 24.01005353 for Incongruent data.
+       For congruent data critical statistic value is 0.60792.
+       And for Incongruent data critical statistic value is 0.9445. 
+       Finally the result match with my expectation.
+    
